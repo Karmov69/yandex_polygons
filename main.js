@@ -34,4 +34,6 @@ function init() {
 
   // Включаем режим редактирования с возможностью добавления новых вершин.
   myPolygon.editor.startDrawing();
+
+  console.log(myMap);
 }
