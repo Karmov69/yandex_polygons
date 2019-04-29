@@ -30,6 +30,7 @@ function init() {
   // В режиме добавления новых вершин меняем цвет обводки многоугольника.
   var stateMonitor = new ymaps.Monitor(myPolygon.editor.state);
   stateMonitor.add("drawing", function(newValue) {
+    console.log("add new point");
     myPolygon.options.set("strokeColor", newValue ? "#FF0000" : "#0000FF");
   });
 
