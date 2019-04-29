@@ -31,7 +31,6 @@ function init() {
   var stateMonitor = new ymaps.Monitor(myPolygon.editor.state);
   stateMonitor.add("drawing", function(newValue) {
     myPolygon.options.set("strokeColor", newValue ? "#FF0000" : "#0000FF");
-    debugger;
   });
 
   // Включаем режим редактирования с возможностью добавления новых вершин.
