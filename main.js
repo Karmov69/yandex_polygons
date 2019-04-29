@@ -17,6 +17,7 @@ function init() {
       editorMaxPoints: 51,
       // Цвет заливки.
       fillColor: "#00FF00",
+      opacity: 0.2,
       // Цвет обводки.
       strokeColor: "#0000FF",
       // Ширина обводки.
